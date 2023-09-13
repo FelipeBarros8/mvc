@@ -1,0 +1,20 @@
+[
+    {
+        "Nome":"",
+        "Idade": "",
+        "Sexo": "",
+        "Peso": 0,
+        "Altura": "",
+        "Telefone": "",
+        "Email": "",
+        "Endereço": {
+            "Estado": "",
+            "Cidade": "", 
+            "Rua": "" , 
+            "Número":,
+            "Complemento": ""
+        }
+
+    }
+
+]
