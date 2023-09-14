@@ -1,20 +1,28 @@
-[
-    {
-        "Nome":"",
-        "Idade": "",
-        "Sexo": "",
-        "Peso": 0,
-        "Altura": "",
-        "Telefone": "",
-        "Email": "",
-        "Endereço": {
-            "Estado": "",
-            "Cidade": "", 
-            "Rua": "" , 
-            "Número":,
-            "Complemento": ""
-        }
+{
+    "nome"  :"João",
+    "dataNascimento":"01/12/1960",
+    "cpf"   : "12315486489",
+    "sexo"  : "M",
+    "peso"  : "81kg",
+    "tipoSanguineo": "O+",
+        
+        
+    "endereco": {
+        "pais"  : "Brasil",
+        "estado": "Pernambuco",
+        "cidade": "Prazeres", 
+        "rua"   : "Avenida Barreto de Menezes" , 
+        "numero": 300,
+        "complemento": "",
+        "cep"   : "51200900"
+        },
+        
+    "telefone"  :["(81) 9 9999-8999", "(81) 9 8888-3333" ],
+    "indicaAmigos": true,
+    "email"     : "Email",
+    "permissaoNotificacao": true,
+    "tatto"     : false,
+    "tempotatto": "14/09/2023"
+    
 
-    }
-
-]
+}
