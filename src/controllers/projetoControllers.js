@@ -1,4 +1,4 @@
-import projetos from "../models/projetos";
+import projetos from "../models/projetos.js";
 
 class ProjetoController {
 
@@ -15,7 +15,7 @@ class ProjetoController {
 
         projeto.save((err) => {
             if (err) {
-                res.status(500).send({message: `${err.message} - flaha ao cadastrar pessoa doadora.`})
+                res.status(500).send({message: `${err.message} - falha ao cadastrar pessoa doadora.`})
             } else {
                 res.status(201).send(projeto.toJSON())
             }
