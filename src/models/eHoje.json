@@ -18,10 +18,10 @@
         },
         
     "telefone"  :["(81) 9 9999-8999", "(81) 9 8888-3333" ],
-    "indicaAmigos": true,
-    "email"     : "Email",
-    "permissaoNotificacao": true,
-    "tatto"     : false,
+    "indicaAmigos": "",
+    "email"     : "",
+    "permissaoNotificacao": "",
+    "tatto"     : "",
     "tempotatto": "14/09/2023"
     
 
