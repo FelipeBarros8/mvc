@@ -8,6 +8,21 @@ class ProjetoController {
         });
     };
 
+    static getById = (req, res) => {
+        const id = req.params.id;
+
+
+        projetos.findById(id, (err, projetos) => {
+            if (err) {
+                res
+                .status(400)
+                .send({message: `${err.message} - ID do cadastro não localizado.`});
+            } else {
+                res.status(200).send(projetos);
+            }
+        });
+    };
+
 
     static createProjetos = (req, res) => {
         let projeto = new projetos(req.body);
@@ -25,7 +40,7 @@ class ProjetoController {
     static updateProjetos = (req, res) => {
         const id = req.params.id;
 
-        projetos.findByIdAndUpdate(id, { $set: req.boy }, (err) => {
+        projetos.findByIdAndUpdate(id, { $set: req.body }, (err) => {
             if (!err) {
                 res.status(200).send({ message: "Cadastro atualizado com sucesso" });
             } else {
